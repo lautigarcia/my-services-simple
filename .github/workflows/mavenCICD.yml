@@ -1,4 +1,4 @@
-name: Maven Action Workflow: Vanilla Workflow
+marxname: Maven Action Workflow: Vanilla Workflow
 on:
   push:
     branches:
@@ -15,7 +15,7 @@ jobs:
         run: |
           echo "Deploy artifact:"
           echo "$(date +'%Y-%m-%d %H:%M:%S')"
-  cx:
+  checkmarx:
     needs: init
     runs-on: ubuntu-latest
     steps:
