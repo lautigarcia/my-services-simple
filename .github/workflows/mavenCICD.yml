@@ -53,7 +53,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy
+      - name: Publish
         run: |
           echo "Deploy artifact:"
           echo "$(date +'%Y-%m-%d %H:%M:%S')"
