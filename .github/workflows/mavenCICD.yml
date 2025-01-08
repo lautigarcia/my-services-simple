@@ -1,4 +1,4 @@
-marxname: Maven Action Workflow: Vanilla Workflow
+name: Maven Action Workflow: Vanilla Workflow
 on:
   push:
     branches:
